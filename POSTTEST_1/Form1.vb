@@ -29,11 +29,15 @@
                 Else
                     lblHasil.Text = "Kurang"
                 End If
+                txtInput.Focus()
+                txtInput.Clear()
             Else
                 MessageBox.Show("IPS harus 0 sampe 4")
+                txtInput.Focus()
             End If
         Else
             MessageBox.Show("Inputan harus angka")
+            txtInput.Focus()
         End If
 
     End Sub
