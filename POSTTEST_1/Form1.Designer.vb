@@ -106,7 +106,7 @@ Partial Class Form1
         Controls.Add(lblipk)
         Controls.Add(lblips)
         Name = "Form1"
-        Text = "Form1"
+        Text = "Kalkulator IP"
         ResumeLayout(False)
         PerformLayout()
     End Sub
