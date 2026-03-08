@@ -75,7 +75,7 @@ Partial Class Form1
         ' 
         ' btnTambah
         ' 
-        btnTambah.BackColor = Color.LimeGreen
+        btnTambah.BackColor = Color.Cyan
         btnTambah.Location = New Point(178, 126)
         btnTambah.Name = "btnTambah"
         btnTambah.Size = New Size(94, 32)
@@ -112,7 +112,7 @@ Partial Class Form1
         ' 
         ' btnHapus
         ' 
-        btnHapus.BackColor = Color.IndianRed
+        btnHapus.BackColor = Color.Red
         btnHapus.Location = New Point(178, 114)
         btnHapus.Name = "btnHapus"
         btnHapus.Size = New Size(94, 29)
