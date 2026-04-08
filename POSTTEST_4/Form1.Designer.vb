@@ -533,7 +533,7 @@ Partial Class Form1
         ' cmbKomunitas
         ' 
         cmbKomunitas.FormattingEnabled = True
-        cmbKomunitas.Items.AddRange(New Object() {"Programming", "", "Desain Grafis", "", "Multimedia", "", "Robotik", "", "Fotografi", "", "Gaming", "", "Musik", "", "Olahraga"})
+        cmbKomunitas.Items.AddRange(New Object() {"Programming", "Desain Grafis", "Multimedia", "Robotik", "Fotografi", "Gaming", "Musik", "Olahraga"})
         cmbKomunitas.Location = New Point(129, 193)
         cmbKomunitas.Name = "cmbKomunitas"
         cmbKomunitas.Size = New Size(250, 28)
@@ -657,7 +657,7 @@ Partial Class Form1
         ' 
         ' Form1
         ' 
-        AutoScaleDimensions = New SizeF(8.0F, 20.0F)
+        AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         BackgroundImage = My.Resources.Resources.form
         BackgroundImageLayout = ImageLayout.Stretch
