@@ -1,0 +1,11 @@
+CREATE DATABASE dbtokobuah;
+USE dbtokobuah;
+
+CREATE TABLE buah (
+    id_buah VARCHAR(5) PRIMARY KEY,
+    nama_buah VARCHAR(50),
+    harga INT,
+    stok INT
+);
+ALTER TABLE buah DROP PRIMARY KEY;
+ALTER TABLE buah MODIFY id_buah INT NOT NULL AUTO_INCREMENT PRIMARY KEY;
